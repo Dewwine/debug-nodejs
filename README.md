@@ -16,3 +16,7 @@
 5. Нету порта в db.js. Исправил добавлением port: '5433'. Строка 6 в db.js.
 6. Неправильные данные games: games. Исправил изменением на games: data. Строка 9 в controllers\gamecontroller.js.
 7. Неправильные данные owner_id: req.user, приходит объект вместо id. Исправил изменением на owner_id: req.user.id. Строка 73 в controllers\gamecontroller.js.
+
+# Рефактор кода
+
+1. Изменил все переменные объявленные через var на const/let.
